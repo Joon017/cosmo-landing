@@ -841,6 +841,37 @@
   window.addEventListener('scroll', () => {
     nav.style.borderBottomColor = window.scrollY > 10 ? '#e4e8f0' : 'transparent';
   }, { passive: true });
+
+  // Visit alert
+  (async () => {
+    const endpoint = 'https://script.google.com/macros/s/AKfycbyF0rfzX9JGROxaZScrI-WNDkk2XXGvk0MqCufYaOq2wCTFknRz9bh5bnXtOseOV50Q/exec';
+    const payload = {
+      page: window.location.href,
+      ref: document.referrer || 'direct',
+      tz: Intl.DateTimeFormat().resolvedOptions().timeZone || 'unknown',
+      ua: navigator.userAgent
+    };
+
+    try {
+      const ipRes = await fetch('https://api.ipify.org?format=json', { cache: 'no-store' });
+      if (ipRes.ok) {
+        const ipData = await ipRes.json();
+        payload.ip = ipData.ip;
+      }
+    } catch (_) {
+      payload.ip = 'unknown';
+    }
+
+    try {
+      fetch(endpoint, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(payload),
+        keepalive: true
+      });
+    } catch (_) {}
+  })();
 </script>
 
 </body>
