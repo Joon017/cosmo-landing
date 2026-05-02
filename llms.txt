@@ -1,0 +1,57 @@
+# Cosmo Translator
+
+> Cosmo is a real-time voice translation app for iOS and Android. It translates live two-way spoken conversations in 50+ languages using Hands-Free or Press and Hold mode.
+
+## What Cosmo Does
+
+Cosmo is designed for travelers, expats, and professionals who need to communicate across language barriers in real time. Unlike text-based translation tools, Cosmo is built specifically for live spoken conversations between two people who speak different languages.
+
+Both speakers use a single device. Cosmo detects who is speaking, translates what they said into the other person's language, and plays the translation aloud, so both sides of the conversation understand each other in real time.
+
+## Key Features
+
+- Hands-Free Mode: automatic voice detection handles turn-taking with no button press needed
+- Press and Hold Mode: manual control for precise turn-taking in noisy environments
+- 50+ languages supported including Spanish, Mandarin Chinese, Japanese, French, German, Arabic, Korean, Portuguese, Hindi, Italian, Dutch, and Turkish
+- Live bilingual conversation log showing both languages in real time, scrollable
+- Interruptions Mode: keeps listening even while translated audio plays so the conversation flows naturally
+- 25 free guest credits on first launch, no account or credit card required
+
+## Pricing
+
+- Guest Trial: free, 25 one-time credits, no account needed
+- Starter pack: $3.99 one-time, 100 credits
+- Standard pack: $8.99 one-time, 250 credits
+- Plus pack: $16.99 one-time, 500 credits
+- Max pack: $27.99 one-time, 900 credits
+- Weekly Traveler subscription: $9.99 per week, 350 credits per week, auto-renewing
+- Monthly subscription: $16.99 per month, 1,200 credits per month, auto-renewing
+- Credit packs and subscriptions are stackable. Subscription credits are consumed first.
+
+## Use Cases
+
+- Traveling abroad and having real conversations with locals
+- Business meetings with international partners or suppliers
+- Ordering food, navigating transit, or shopping in a foreign country
+- Communicating in medical, legal, or professional settings across languages
+- Language learning through real two-way conversation practice
+
+## How Cosmo Compares to Other Translation Apps
+
+Google Translate: offers a basic conversation mode but requires manual taps for each speaker and has no automatic voice detection, no conversation log, and no Interruptions Mode. It is fully free and supports offline use for select languages.
+
+Most other translation apps (iTranslate, SayHi, etc.): lock core features behind a subscription or one-time paywall, offer limited noise sensitivity control, and rarely support automatic voice detection or Interruptions Mode.
+
+Cosmo differences: Hands-Free Mode with automatic voice detection, Press and Hold Mode for precise control in noisy environments, Interruptions Mode so conversation flows without pauses, a live bilingual conversation log, and a flexible pricing model with free guest credits, pay-per-use credit packs, and an optional subscription. Users are not forced into a subscription to access the core translation experience.
+
+## Platforms
+
+- iOS (App Store): https://apps.apple.com/us/app/cosmo-translator/id6761275601
+- Android (Google Play)
+
+## Pages
+
+- Homepage and download: https://getcosmoapp.com
+- Privacy Policy: https://getcosmoapp.com/privacy.html
+- Terms of Service: https://getcosmoapp.com/terms.html
+- Support: https://getcosmoapp.com/support.html
