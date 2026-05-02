@@ -843,7 +843,7 @@
   }, { passive: true });
 
   // Visit alert
-  (async () => {
+  (() => {
     const endpoint = 'https://script.google.com/macros/s/AKfycbyF0rfzX9JGROxaZScrI-WNDkk2XXGvk0MqCufYaOq2wCTFknRz9bh5bnXtOseOV50Q/exec';
     const payload = {
       page: window.location.href,
@@ -851,23 +851,19 @@
       tz: Intl.DateTimeFormat().resolvedOptions().timeZone || 'unknown',
       ua: navigator.userAgent
     };
+    const body = JSON.stringify(payload);
 
     try {
-      const ipRes = await fetch('https://api.ipify.org?format=json', { cache: 'no-store' });
-      if (ipRes.ok) {
-        const ipData = await ipRes.json();
-        payload.ip = ipData.ip;
+      if (navigator.sendBeacon) {
+        const sent = navigator.sendBeacon(endpoint, new Blob([body], { type: 'text/plain;charset=utf-8' }));
+        if (sent) return;
       }
-    } catch (_) {
-      payload.ip = 'unknown';
-    }
 
-    try {
       fetch(endpoint, {
         method: 'POST',
         mode: 'no-cors',
         headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-        body: JSON.stringify(payload),
+        body,
         keepalive: true
       });
     } catch (_) {}
