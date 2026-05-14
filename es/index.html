@@ -1157,20 +1157,17 @@
   document.addEventListener('keydown', function(e) {
     if (e.key === 'Escape') closeAndroidModal();
   });
-  async function submitAndroidEmail(e) {
+  function submitAndroidEmail(e) {
     e.preventDefault();
     const email = document.getElementById('androidEmail').value.trim();
     const btn = document.getElementById('androidSubmitBtn');
     btn.disabled = true;
     btn.textContent = btn.dataset.submitting;
     const endpoint = 'https://script.google.com/macros/s/AKfycbyF0rfzX9JGROxaZScrI-WNDkk2XXGvk0MqCufYaOq2wCTFknRz9bh5bnXtOseOV50Q/exec';
+    const body = JSON.stringify({ type: 'android_waitlist', email, page: window.location.href });
     try {
-      await fetch(endpoint, {
-        method: 'POST', mode: 'no-cors',
-        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-        body: JSON.stringify({ type: 'android_waitlist', email: email, page: window.location.href })
-      });
-    } catch (err) {}
+      navigator.sendBeacon(endpoint, new Blob([body], { type: 'text/plain;charset=utf-8' }));
+    } catch (_) {}
     document.getElementById('androidForm').style.display = 'none';
     document.getElementById('androidSuccess').classList.add('show');
   }
