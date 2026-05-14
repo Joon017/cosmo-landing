@@ -1218,6 +1218,7 @@
 
     const endpoint = 'https://script.google.com/macros/s/AKfycbyF0rfzX9JGROxaZScrI-WNDkk2XXGvk0MqCufYaOq2wCTFknRz9bh5bnXtOseOV50Q/exec';
     const payload = {
+      type: 'visit',
       page: window.location.href,
       ref: document.referrer || 'direct',
       tz: Intl.DateTimeFormat().resolvedOptions().timeZone || 'unknown',
