@@ -226,6 +226,7 @@
       padding: 13px 22px; border-radius: 14px;
       transition: transform 0.15s, box-shadow 0.15s;
       box-shadow: var(--shadow-sm);
+      border: none; cursor: pointer; font-family: inherit;
     }
     .store-btn:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
     .store-btn svg { flex-shrink: 0; }
@@ -532,6 +533,71 @@
     @media (max-width: 520px) {
       .credits-callout { grid-template-columns: 1fr; }
     }
+
+    /* --- ANDROID MODAL --- */
+    .modal-backdrop {
+      display: none; position: fixed; inset: 0; z-index: 500;
+      background: rgba(8,11,24,0.55); backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      align-items: center; justify-content: center; padding: 24px;
+    }
+    .modal-backdrop.open { display: flex; }
+    .modal-card {
+      background: var(--bg); border-radius: 24px;
+      box-shadow: 0 32px 80px rgba(0,0,0,0.22), 0 4px 16px rgba(0,0,0,0.08);
+      padding: 40px 36px 36px; max-width: 420px; width: 100%;
+      position: relative; text-align: center;
+      animation: modal-in 0.22s cubic-bezier(0.34,1.56,0.64,1) both;
+    }
+    @keyframes modal-in {
+      from { opacity: 0; transform: scale(0.92) translateY(12px); }
+      to   { opacity: 1; transform: scale(1) translateY(0); }
+    }
+    .modal-close {
+      position: absolute; top: 16px; right: 16px;
+      background: var(--bg-alt); border: none; border-radius: 50%;
+      width: 32px; height: 32px; cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      color: var(--text-2); transition: background 0.15s;
+    }
+    .modal-close:hover { background: var(--border); }
+    .modal-icon {
+      width: 64px; height: 64px; background: var(--text);
+      border-radius: 18px; display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 20px;
+    }
+    .modal-card h3 {
+      font-family: "Bricolage Grotesque", sans-serif;
+      font-size: 22px; font-weight: 800; letter-spacing: -0.03em;
+      margin-bottom: 10px; color: var(--text);
+    }
+    .modal-card p {
+      font-size: 15px; color: var(--text-2); line-height: 1.6;
+      margin-bottom: 24px;
+    }
+    .modal-form { display: flex; flex-direction: column; gap: 10px; }
+    .modal-form input[type="email"] {
+      width: 100%; padding: 13px 16px; border-radius: 12px;
+      border: 1.5px solid var(--border); font-size: 15px;
+      font-family: inherit; color: var(--text); background: var(--bg);
+      outline: none; transition: border-color 0.15s;
+    }
+    .modal-form input[type="email"]:focus { border-color: var(--accent); }
+    .modal-form button[type="submit"] {
+      width: 100%; padding: 13px; border-radius: 12px;
+      background: var(--accent); color: white; border: none;
+      font-family: inherit; font-size: 15px; font-weight: 700;
+      cursor: pointer; transition: background 0.15s, transform 0.15s;
+    }
+    .modal-form button[type="submit"]:hover { background: var(--accent-dark); transform: translateY(-1px); }
+    .modal-form button[type="submit"]:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+    .modal-success { display: none; flex-direction: column; align-items: center; gap: 12px; padding: 8px 0; }
+    .modal-success.show { display: flex; }
+    .modal-success-icon {
+      width: 52px; height: 52px; background: #dcfce7; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .modal-success p { font-size: 15px; color: var(--text-2); margin: 0; }
   </style>
 </head>
 <body>
@@ -576,7 +642,7 @@
           <span class="name">App Store</span>
         </div>
       </a>
-      <a href="https://play.google.com" class="store-btn">
+      <button onclick="openAndroidModal()" class="store-btn">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
           <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zM14.208 12l3.679 3.679-7.104 3.974L14.208 12zM10.783 4.347l7.104 3.974L14.208 12l-3.425-7.653zM18.1 8.894L20.77 10.3a1 1 0 010 3.4l-2.67 1.406-3.07-3.106 3.07-3.206z"/>
         </svg>
@@ -584,7 +650,7 @@
           <span class="sub">Disponible sur</span>
           <span class="name">Google Play</span>
         </div>
-      </a>
+      </button>
     </div>
   </div>
 
@@ -1016,7 +1082,7 @@
         <span class="name">App Store</span>
       </div>
     </a>
-    <a href="https://play.google.com" class="store-btn">
+    <button onclick="openAndroidModal()" class="store-btn">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="white">
         <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zM14.208 12l3.679 3.679-7.104 3.974L14.208 12zM10.783 4.347l7.104 3.974L14.208 12l-3.425-7.653zM18.1 8.894L20.77 10.3a1 1 0 010 3.4l-2.67 1.406-3.07-3.106 3.07-3.206z"/>
       </svg>
@@ -1024,7 +1090,7 @@
         <span class="sub">Disponible sur</span>
         <span class="name">Google Play</span>
       </div>
-    </a>
+      </button>
   </div>
 </section>
 
@@ -1043,7 +1109,72 @@
   </div>
 </footer>
 
+<!-- ANDROID COMING SOON MODAL -->
+<div class="modal-backdrop" id="androidModal" onclick="handleBackdropClick(event)">
+  <div class="modal-card">
+    <button class="modal-close" onclick="closeAndroidModal()" aria-label="Close">
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+        <path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <div class="modal-icon">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="white">
+        <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 01-.61-.92V2.734a1 1 0 01.609-.92zM14.208 12l3.679 3.679-7.104 3.974L14.208 12zM10.783 4.347l7.104 3.974L14.208 12l-3.425-7.653zM18.1 8.894L20.77 10.3a1 1 0 010 3.4l-2.67 1.406-3.07-3.106 3.07-3.206z"/>
+      </svg>
+    </div>
+    <h3>Bientôt sur Android</h3>
+    <p>Nous peaufinons la version Android. Entrez votre email et nous vous avertirons dès qu'elle sera disponible sur Google Play.</p>
+    <form class="modal-form" id="androidForm" onsubmit="submitAndroidEmail(event)">
+      <input type="email" id="androidEmail" placeholder="votre@email.com" required autocomplete="email">
+      <button type="submit" id="androidSubmitBtn" data-submitting="Envoi…">M'avertir</button>
+    </form>
+    <div class="modal-success" id="androidSuccess">
+      <div class="modal-success-icon">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M5 13l4 4L19 7" stroke="#16a34a" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <strong style="font-size:16px;color:var(--text)">Vous êtes sur la liste !</strong>
+      <p>Nous vous enverrons un email dès que Cosmo sera disponible sur Google Play.</p>
+    </div>
+  </div>
+</div>
+
 <script>
+
+  // Android modal
+  function openAndroidModal() {
+    document.getElementById('androidModal').classList.add('open');
+    document.body.style.overflow = 'hidden';
+  }
+  function closeAndroidModal() {
+    document.getElementById('androidModal').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+  function handleBackdropClick(e) {
+    if (e.target === document.getElementById('androidModal')) closeAndroidModal();
+  }
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeAndroidModal();
+  });
+  async function submitAndroidEmail(e) {
+    e.preventDefault();
+    const email = document.getElementById('androidEmail').value.trim();
+    const btn = document.getElementById('androidSubmitBtn');
+    btn.disabled = true;
+    btn.textContent = btn.dataset.submitting;
+    const endpoint = 'https://script.google.com/macros/s/AKfycbyF0rfzX9JGROxaZScrI-WNDkk2XXGvk0MqCufYaOq2wCTFknRz9bh5bnXtOseOV50Q/exec';
+    try {
+      await fetch(endpoint, {
+        method: 'POST', mode: 'no-cors',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify({ type: 'android_waitlist', email: email, page: window.location.href })
+      });
+    } catch (err) {}
+    document.getElementById('androidForm').style.display = 'none';
+    document.getElementById('androidSuccess').classList.add('show');
+  }
+
   // Save manual language choice
   document.querySelectorAll('.lang-switcher a').forEach(function(a) {
     a.addEventListener('click', function() {
@@ -1071,8 +1202,11 @@
     nav.style.borderBottomColor = window.scrollY > 10 ? '#e4e8f0' : 'transparent';
   }, { passive: true });
 
-  // Visit alert
+  // Visit alert — once per session across all language pages
   (() => {
+    if (sessionStorage.getItem('cosmo-visited')) return;
+    sessionStorage.setItem('cosmo-visited', '1');
+
     const endpoint = 'https://script.google.com/macros/s/AKfycbyF0rfzX9JGROxaZScrI-WNDkk2XXGvk0MqCufYaOq2wCTFknRz9bh5bnXtOseOV50Q/exec';
     const payload = {
       page: window.location.href,
