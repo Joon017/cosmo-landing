@@ -190,7 +190,7 @@
     /* ─── HERO ─── */
     .hero {
       padding: 88px 28px 0;
-      background: rgba(0,0,0,0.3) url('../assets/hero-cafe-translation.png') center center / cover no-repeat;
+      background: rgba(0,0,0,0.3) url('../assets/banner.png') center center / cover no-repeat;
       background-blend-mode: darken;
       text-align: center; overflow: hidden;
       min-height: 100vh;
@@ -245,19 +245,12 @@
     .pf {
       background: #161927;
       border-radius: 44px;
-      padding: 10px;
+      padding: 8px 10px 10px;
       box-shadow: var(--shadow-phone);
       position: relative;
     }
-    .pf::before {
-      content: '';
-      position: absolute; top: 18px; left: 50%;
-      transform: translateX(-50%);
-      width: 72px; height: 18px;
-      background: #161927; border-radius: 0 0 12px 12px; z-index: 3;
-    }
     .pf-screen {
-      border-radius: 36px; overflow: hidden; background: #fff;
+      border-radius: 38px 38px 34px 34px; overflow: hidden; background: #fff;
       position: relative; z-index: 2;
     }
     .pf-screen img { width: 100%; display: block; }
@@ -614,7 +607,7 @@
 <nav>
   <div class="nav-inner">
     <a href="#" class="logo">
-      <img src="../assets/cosmo_logo.png" style="width:32px;height:32px;display:block;object-fit:contain;" alt="Cosmo logo">
+      <img src="../assets/Cosmo_latest_no_bg.png" style="width:32px;height:32px;display:block;object-fit:contain;" alt="Cosmo logo">
       Cosmo Translator
     </a>
     <ul class="nav-links">
@@ -632,12 +625,8 @@
 <!-- ──────────────────── HERO ──────────────────── -->
 <section class="hero">
   <div class="hero-card">
-    <div class="hero-eyebrow">
-      <svg width="12" height="12" fill="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3" stroke="white" stroke-width="2" fill="none"/></svg>
-      Application gratuite pour iOS &amp; Android
-    </div>
     <h1>Parlez à n'importe qui<br>sans barrières linguistiques.</h1>
-    <p class="hero-sub">Cosmo traduit avec précision et fiabilité les conversations bidirectionnelles en temps réel, pour que vous et votre interlocuteur vous compreniez toujours.</p>
+    <p class="hero-sub">Built for real conversations, Cosmo translates live two-way conversations accurately and reliably for over 70+ languages in real time, so you and the person across from you always understand each other. We believe in helping you unlock unlimited opportunities by breaking the language barrier.</p>
 
     <p style="font-size:12px;color:rgba(255,255,255,0.5);margin-bottom:14px;letter-spacing:0.04em;">Disponible gratuitement sur iOS et Android</p>
     <div class="store-row" id="download" style="margin-bottom:0;">
@@ -666,21 +655,21 @@
     <div class="phone-wrap side">
       <div class="pf">
         <div class="pf-screen">
-          <img src="../assets/screenshot-language-setup.png" alt="Écran de configuration" loading="lazy">
+          <img src="../assets/cosmo_ss1.jpg" alt="Écran de configuration" loading="lazy">
         </div>
       </div>
     </div>
     <div class="phone-wrap main">
       <div class="pf">
         <div class="pf-screen">
-          <img src="../assets/screenshot-live-listening.png" alt="Traduction en direct" loading="lazy">
+          <img src="../assets/cosmo_ss2.jpg" alt="Traduction en direct" loading="lazy">
         </div>
       </div>
     </div>
     <div class="phone-wrap side right">
       <div class="pf">
         <div class="pf-screen">
-          <img src="../assets/screenshot-conversation-log.png" alt="Conversation" loading="lazy">
+          <img src="../assets/cosmo_ss3.jpg" alt="Conversation" loading="lazy">
         </div>
       </div>
     </div>
@@ -697,6 +686,108 @@
     <div class="stat-item"><div class="stat-dot"></div>25 crédits gratuits au premier lancement</div>
   </div>
 </div>
+
+
+<!-- USE CASES -->
+<section class="usecases-section">
+  <div class="usecases-inner fu">
+    <div class="eyebrow">Use Cases</div>
+    <h2 class="section-title">Built for every conversation</h2>
+    <p class="section-sub">Whether you're crossing borders or closing deals, Cosmo keeps you understood.</p>
+    <div class="usecases-grid">
+
+      <div class="usecase-card">
+        <img src="../assets/cosmoad_conversation.png" alt="Travel and daily conversations" class="usecase-img">
+        <div class="usecase-body">
+          <span class="usecase-tag">Travel</span>
+          <h3>Travel &amp; Daily Conversations</h3>
+          <p>Navigate new places with confidence. Ask for directions, order food, and connect with locals. No phrasebook needed. Cosmo handles the conversation so you can focus on the experience.</p>
+        </div>
+      </div>
+
+      <div class="usecase-card">
+        <img src="../assets/cosmoad_hotel.png" alt="Hotels and guest services" class="usecase-img">
+        <div class="usecase-body">
+          <span class="usecase-tag">Hospitality</span>
+          <h3>Hotels &amp; Guest Services</h3>
+          <p>From check-in to concierge requests, Cosmo bridges the gap between staff and guests speaking different languages, making every stay feel seamless and personal.</p>
+        </div>
+      </div>
+
+      <div class="usecase-card">
+        <img src="../assets/cosmoad_business.png" alt="Business meetings and negotiations" class="usecase-img">
+        <div class="usecase-body">
+          <span class="usecase-tag">Business</span>
+          <h3>Business Meetings &amp; Negotiations</h3>
+          <p>Walk into any room ready. Cosmo translates live in both directions so you can negotiate, collaborate, and build relationships with partners around the world, in real time.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- LANGUAGES -->
+<section class="languages-section">
+  <div class="languages-inner fu">
+    <div class="eyebrow">Languages</div>
+    <h2 class="section-title">Speak to anyone, anywhere</h2>
+    <p class="section-sub">Cosmo supports 70+ languages — from widely spoken to regional. A sample of what's available:</p>
+    <div class="lang-pills">
+      <span class="lang-pill"><span class="flag">🇺🇸</span>English</span>
+      <span class="lang-pill"><span class="flag">🇪🇸</span>Spanish</span>
+      <span class="lang-pill"><span class="flag">🇨🇳</span>Mandarin</span>
+      <span class="lang-pill"><span class="flag">🇫🇷</span>French</span>
+      <span class="lang-pill"><span class="flag">🇩🇪</span>German</span>
+      <span class="lang-pill"><span class="flag">🇯🇵</span>Japanese</span>
+      <span class="lang-pill"><span class="flag">🇰🇷</span>Korean</span>
+      <span class="lang-pill"><span class="flag">🇵🇹</span>Portuguese</span>
+      <span class="lang-pill"><span class="flag">🇮🇳</span>Hindi</span>
+      <span class="lang-pill"><span class="flag">🇸🇦</span>Arabic</span>
+      <span class="lang-pill"><span class="flag">🇮🇹</span>Italian</span>
+      <span class="lang-pill"><span class="flag">🇷🇺</span>Russian</span>
+      <span class="lang-pill"><span class="flag">🇳🇱</span>Dutch</span>
+      <span class="lang-pill"><span class="flag">🇹🇷</span>Turkish</span>
+      <span class="lang-pill"><span class="flag">🇵🇱</span>Polish</span>
+      <span class="lang-pill"><span class="flag">🇸🇪</span>Swedish</span>
+      <span class="lang-pill"><span class="flag">🇳🇴</span>Norwegian</span>
+      <span class="lang-pill"><span class="flag">🇩🇰</span>Danish</span>
+      <span class="lang-pill"><span class="flag">🇫🇮</span>Finnish</span>
+      <span class="lang-pill"><span class="flag">🇬🇷</span>Greek</span>
+      <span class="lang-pill"><span class="flag">🇨🇿</span>Czech</span>
+      <span class="lang-pill"><span class="flag">🇷🇴</span>Romanian</span>
+      <span class="lang-pill"><span class="flag">🇭🇺</span>Hungarian</span>
+      <span class="lang-pill"><span class="flag">🇺🇦</span>Ukrainian</span>
+      <span class="lang-pill"><span class="flag">🇮🇱</span>Hebrew</span>
+      <span class="lang-pill"><span class="flag">🇮🇩</span>Indonesian</span>
+      <span class="lang-pill"><span class="flag">🇲🇾</span>Malay</span>
+      <span class="lang-pill"><span class="flag">🇹🇭</span>Thai</span>
+      <span class="lang-pill"><span class="flag">🇻🇳</span>Vietnamese</span>
+      <span class="lang-pill"><span class="flag">🇵🇭</span>Filipino</span>
+      <span class="lang-pill"><span class="flag">🇧🇩</span>Bengali</span>
+      <span class="lang-pill"><span class="flag">🇵🇰</span>Urdu</span>
+      <span class="lang-pill"><span class="flag">🇮🇷</span>Persian</span>
+      <span class="lang-pill"><span class="flag">🇪🇬</span>Egyptian Arabic</span>
+      <span class="lang-pill"><span class="flag">🇿🇦</span>Afrikaans</span>
+      <span class="lang-pill"><span class="flag">🇳🇬</span>Yoruba</span>
+      <span class="lang-pill"><span class="flag">🇰🇪</span>Swahili</span>
+      <span class="lang-pill"><span class="flag">🇪🇹</span>Amharic</span>
+      <span class="lang-pill"><span class="flag">🇲🇽</span>Mexican Spanish</span>
+      <span class="lang-pill"><span class="flag">🇧🇷</span>Brazilian Portuguese</span>
+      <span class="lang-pill"><span class="flag">🇦🇷</span>Argentine Spanish</span>
+      <span class="lang-pill"><span class="flag">🇨🇴</span>Colombian Spanish</span>
+      <span class="lang-pill"><span class="flag">🇭🇷</span>Croatian</span>
+      <span class="lang-pill"><span class="flag">🇸🇰</span>Slovak</span>
+      <span class="lang-pill"><span class="flag">🇧🇬</span>Bulgarian</span>
+      <span class="lang-pill"><span class="flag">🇱🇹</span>Lithuanian</span>
+      <span class="lang-pill"><span class="flag">🇱🇻</span>Latvian</span>
+      <span class="lang-pill"><span class="flag">🇪🇪</span>Estonian</span>
+      <span class="lang-pill"><span class="flag">🇨🇦</span>French Canadian</span>
+      <span class="lang-pill"><span class="flag">🇨🇳</span>Cantonese</span>
+    </div>
+    <p class="lang-more">…and many more. Full list available in the app.</p>
+  </div>
+</section>
 
 <!-- ──────────────────── FEATURES ──────────────────── -->
 <section class="section" id="features">
@@ -778,31 +869,32 @@
     <div class="screenshots-scroll">
       <div class="ss-item">
         <div class="pf">
-          <div class="pf-screen"><img src="../assets/screenshot-language-setup.png" alt="Configuration des langues" loading="lazy"></div>
+          <div class="pf-screen"><img src="../assets/cosmo_ss1.jpg" alt="Configuration des langues" loading="lazy"></div>
         </div>
         <p class="ss-caption">Choisissez votre paire de langues et votre mode</p>
       </div>
       <div class="ss-item">
         <div class="pf">
-          <div class="pf-screen"><img src="../assets/screenshot-voice-settings.png" alt="Paramètres vocaux" loading="lazy"></div>
+          <div class="pf-screen"><img src="../assets/cosmo_ss2.jpg" alt="Paramètres vocaux" loading="lazy"></div>
         </div>
         <p class="ss-caption">Configurez le niveau de bruit et la voix</p>
       </div>
       <div class="ss-item">
         <div class="pf">
-          <div class="pf-screen"><img src="../assets/screenshot-conversation-log.png" alt="Conversation" loading="lazy"></div>
+          <div class="pf-screen"><img src="../assets/cosmo_ss3.jpg" alt="Conversation" loading="lazy"></div>
         </div>
         <p class="ss-caption">Journal de conversation bilingue en direct</p>
       </div>
       <div class="ss-item">
         <div class="pf">
-          <div class="pf-screen"><img src="../assets/screenshot-live-listening.png" alt="Écoute active" loading="lazy"></div>
+          <div class="pf-screen"><img src="../assets/cosmo_ss2.jpg" alt="Écoute active" loading="lazy"></div>
         </div>
         <p class="ss-caption">En écoute active et traduction</p>
       </div>
     </div>
   </div>
 </section>
+
 
 <!-- ──────────────────── PRICING ──────────────────── -->
 <section class="section" id="pricing">
@@ -1072,6 +1164,13 @@
         </button>
         <div class="faq-a">Oui. Les packs de crédits sont complètement séparés des abonnements et peuvent être ajoutés à n'importe quel plan. Les crédits d'abonnement sont consommés en premier ; les packs sont votre réserve. Vous ne pouvez avoir qu'un seul abonnement actif à la fois.</div>
       </div>
+      <div class="faq-item">
+        <button class="faq-q" onclick="toggleFaq(this)">
+          Why do I need credits to translate?
+          <svg class="faq-chevron" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
+        </button>
+        <div class="faq-a">Cosmo uses advanced AI models to deliver fast, accurate, and natural-sounding translations in real time. Unlike basic translation apps, every conversation is processed through these models which require computing power to run, and that has a cost. Credits are how we keep the service running while making sure you only pay for what you actually use. You can start for free with 20 guest credits, no account needed.</div>
+      </div>
     </div>
   </div>
 </section>
@@ -1106,7 +1205,7 @@
 <footer>
   <div class="footer-inner">
     <div class="footer-logo">
-      <img src="../assets/cosmo_logo.png" style="width:32px;height:32px;display:block;object-fit:contain;" alt="Cosmo logo">
+      <img src="../assets/Cosmo_latest_no_bg.png" style="width:32px;height:32px;display:block;object-fit:contain;" alt="Cosmo logo">
       Cosmo Translator
     </div>
     <div class="footer-links">
