@@ -5,10 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Cosmo 翻译 - iOS 和 Android 实时语音翻译应用</title>
   <meta name="description" content="Cosmo 是一款适用于 iOS 和 Android 的实时语音翻译应用。支持免提或按住说话模式，可实时准确翻译 50 多种语言的双向对话。无需注册账号，即可获得 25 个免费积分。">
-  <link rel="alternate" hreflang="en" href="https://getcosmoapp.com/" />
+    <link rel="alternate" hreflang="en" href="https://getcosmoapp.com/" />
   <link rel="alternate" hreflang="es" href="https://getcosmoapp.com/es/" />
   <link rel="alternate" hreflang="fr" href="https://getcosmoapp.com/fr/" />
   <link rel="alternate" hreflang="zh" href="https://getcosmoapp.com/zh/" />
+  <link rel="alternate" hreflang="ja" href="https://getcosmoapp.com/ja/" />
+  <link rel="alternate" hreflang="ko" href="https://getcosmoapp.com/ko/" />
+  <link rel="alternate" hreflang="pt-BR" href="https://getcosmoapp.com/pt/" />
+  <link rel="alternate" hreflang="de" href="https://getcosmoapp.com/de/" />
+  <link rel="alternate" hreflang="ar" href="https://getcosmoapp.com/ar/" />
+  <link rel="alternate" hreflang="hi" href="https://getcosmoapp.com/hi/" />
+  <link rel="alternate" hreflang="tr" href="https://getcosmoapp.com/tr/" />
+  <link rel="alternate" hreflang="ru" href="https://getcosmoapp.com/ru/" />
   <link rel="alternate" hreflang="x-default" href="https://getcosmoapp.com/" />
   <script type="application/ld+json">
   {
@@ -484,12 +492,43 @@
     .footer-copy { font-size: 13px; color: rgba(255,255,255,0.28); }
 
     /* ─── LANG SWITCHER ─── */
-    .lang-switcher { display: flex; align-items: center; gap: 4px; }
-    .lang-switcher a { font-size: 12.5px; font-weight: 500; color: var(--text-3); text-decoration: none; padding: 4px 7px; border-radius: 6px; transition: color 0.2s, background 0.2s; }
-    .lang-switcher a:hover { color: var(--text); background: var(--bg-alt); }
-    .lang-switcher a.lang-active { color: var(--accent); font-weight: 700; }
-    .lang-sep { font-size: 11px; color: var(--border); user-select: none; }
+    .lang-switcher select {
+      font-family: inherit; font-size: 13px; font-weight: 600;
+      color: var(--text-2); background: var(--bg-alt);
+      border: 1.5px solid var(--border); border-radius: 8px;
+      padding: 5px 28px 5px 10px; cursor: pointer;
+      appearance: none; -webkit-appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239ba3b5' stroke-width='2.5'%3E%3Cpath d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
+      background-repeat: no-repeat; background-position: right 8px center;
+      transition: border-color 0.15s;
+    }
+    .lang-switcher select:hover { border-color: var(--accent); }
+    .lang-switcher select:focus { outline: none; border-color: var(--accent); }
     @media (max-width: 700px) { .lang-switcher { display: none; } }
+
+    /* ─── LANGUAGES ─── */
+    .languages-section { padding: 64px 28px; background: var(--bg-alt); }
+    .languages-inner { max-width: 860px; margin: 0 auto; text-align: center; }
+    .languages-inner .eyebrow { margin-bottom: 12px; }
+    .languages-inner h2 { font-size: clamp(24px, 3vw, 32px); margin-bottom: 10px; }
+    .languages-inner .section-sub { margin-bottom: 36px; max-width: 480px; margin-left: auto; margin-right: auto; }
+    .lang-pills {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      gap: 10px;
+    }
+    .lang-pill {
+      background: var(--bg); border: 1.5px solid var(--border);
+      border-radius: 10px; padding: 10px 8px;
+      font-size: 13px; font-weight: 500; color: var(--text-2);
+      text-align: center; transition: border-color 0.15s, color 0.15s, background 0.15s;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .lang-pill:hover { border-color: var(--accent); color: var(--accent); background: var(--bg-blue); }
+    .lang-pill .flag { display: none; }
+    .lang-more { margin-top: 16px; font-size: 13.5px; color: var(--text-3); }
+    @media (max-width: 700px) { .lang-pills { grid-template-columns: repeat(3, 1fr); } }
+    @media (max-width: 420px) { .lang-pills { grid-template-columns: repeat(2, 1fr); } }
 
     /* ─── COMPARISON ─── */
     .compare-wrap { margin-top: 52px; overflow-x: auto; }
@@ -508,6 +547,36 @@
     .c-partial { color: var(--text-3); font-size: 13px; font-style: italic; }
     .compare-note { margin-top: 18px; font-size: 13px; color: var(--text-3); max-width: 560px; line-height: 1.6; }
 
+
+    /* --- USE CASES --- */
+    .usecases-section { padding: 80px 28px; background: var(--bg); }
+    .usecases-inner { max-width: 1100px; margin: 0 auto; }
+    .usecases-inner .eyebrow { text-align: center; margin-bottom: 12px; }
+    .usecases-inner > h2 { text-align: center; margin-bottom: 12px; }
+    .usecases-inner > .section-sub { text-align: center; margin-bottom: 48px; max-width: 480px; margin-left: auto; margin-right: auto; }
+    .usecases-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+    .usecase-card {
+      border-radius: var(--radius-lg); overflow: hidden;
+      border: 1.5px solid var(--border); background: var(--bg);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .usecase-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+    .usecase-img { width: 100%; aspect-ratio: 3/4; object-fit: cover; display: block; background: var(--bg-alt); }
+    .usecase-body { padding: 22px 22px 26px; }
+    .usecase-tag {
+      display: inline-block; background: var(--bg-blue); color: var(--accent);
+      font-size: 11.5px; font-weight: 700; letter-spacing: 0.05em;
+      text-transform: uppercase; border-radius: 6px; padding: 3px 9px; margin-bottom: 12px;
+    }
+    .usecase-body h3 {
+      font-family: "Bricolage Grotesque", sans-serif;
+      font-size: 19px; font-weight: 800; letter-spacing: -0.02em;
+      color: var(--text); margin-bottom: 8px; line-height: 1.2;
+    }
+    .usecase-body p { font-size: 14px; color: var(--text-2); line-height: 1.65; }
+    @media (max-width: 780px) {
+      .usecases-grid { grid-template-columns: 1fr; max-width: 400px; margin: 0 auto; }
+    }
     /* ─── FADE UP ANIMATION ─── */
     .fu { opacity: 0; transform: translateY(28px); transition: opacity 0.65s ease, transform 0.65s ease; }
     .fu.vis { opacity: 1; transform: translateY(0); }
@@ -616,7 +685,20 @@
       <li><a href="#faq">常见问题</a></li>
     </ul>
     <div class="lang-switcher">
-      <a href="/">EN</a><span class="lang-sep">·</span><a href="/es/">ES</a><span class="lang-sep">·</span><a href="/fr/">FR</a><span class="lang-sep">·</span><a href="/zh/" class="lang-active">中文</a>
+            <select onchange="if(this.value) { localStorage.setItem('cosmo-lang', this.value); window.location = this.value; }">
+        <option value="/">EN</option>
+        <option value="/es/">ES</option>
+        <option value="/fr/">FR</option>
+        <option value="/zh/" selected>中文</option>
+        <option value="/ja/">日本語</option>
+        <option value="/ko/">한국어</option>
+        <option value="/pt/">PT</option>
+        <option value="/de/">DE</option>
+        <option value="/ar/">AR</option>
+        <option value="/hi/">HI</option>
+        <option value="/tr/">TR</option>
+        <option value="/ru/">RU</option>
+      </select>
     </div>
     <a href="#download" class="btn-pill">免费下载</a>
   </div>
@@ -626,7 +708,7 @@
 <section class="hero">
   <div class="hero-card">
     <h1>与任何人交流，<br>无语言障碍。</h1>
-    <p class="hero-sub">Built for real conversations, Cosmo translates live two-way conversations accurately and reliably for over 70+ languages in real time, so you and the person across from you always understand each other. We believe in helping you unlock unlimited opportunities by breaking the language barrier.</p>
+    <p class="hero-sub">Cosmo 专为真实对话而生，实时准确翻译超过 70 种语言的双向对话，让您与对方始终相互理解。我们相信通过打破语言障碍，帮助您解锁无限机遇。</p>
 
     <p style="font-size:12px;color:rgba(255,255,255,0.5);margin-bottom:14px;letter-spacing:0.04em;">iOS 和 Android 免费下载</p>
     <div class="store-row" id="download" style="margin-bottom:0;">
@@ -679,11 +761,11 @@
 <!-- ──────────────────── STATS BAR ──────────────────── -->
 <div class="stats-bar">
   <div class="stats-inner">
-    <div class="stat-item"><div class="stat-dot"></div>50+ 种语言</div>
+    <div class="stat-item"><div class="stat-dot"></div>支持 70+ 种语言</div>
     <div class="stat-item"><div class="stat-dot"></div>免提和按住说话</div>
     <div class="stat-item"><div class="stat-dot"></div>iOS &amp; Android</div>
     <div class="stat-item"><div class="stat-dot"></div>无需账户即可开始</div>
-    <div class="stat-item"><div class="stat-dot"></div>首次启动 25 个免费积分</div>
+    <div class="stat-item"><div class="stat-dot"></div>20 个免费积分开始</div>
   </div>
 </div>
 
@@ -691,35 +773,35 @@
 <!-- USE CASES -->
 <section class="usecases-section">
   <div class="usecases-inner fu">
-    <div class="eyebrow">Use Cases</div>
-    <h2 class="section-title">Built for every conversation</h2>
-    <p class="section-sub">Whether you're crossing borders or closing deals, Cosmo keeps you understood.</p>
+    <div class="eyebrow">使用场景</div>
+    <h2 class="section-title">专为每次对话而设计</h2>
+    <p class="section-sub">无论您是跨越国界还是达成交易，Cosmo 都能让您被理解。</p>
     <div class="usecases-grid">
 
       <div class="usecase-card">
         <img src="../assets/cosmoad_conversation.png" alt="Travel and daily conversations" class="usecase-img">
         <div class="usecase-body">
-          <span class="usecase-tag">Travel</span>
-          <h3>Travel &amp; Daily Conversations</h3>
-          <p>Navigate new places with confidence. Ask for directions, order food, and connect with locals. No phrasebook needed. Cosmo handles the conversation so you can focus on the experience.</p>
+          <span class="usecase-tag">旅行</span>
+          <h3>旅行与日常对话</h3>
+          <p>自信地探索新地方。问路、点餐、与当地人交流。无需短语手册。Cosmo 处理对话，让您专注于体验。</p>
         </div>
       </div>
 
       <div class="usecase-card">
         <img src="../assets/cosmoad_hotel.png" alt="Hotels and guest services" class="usecase-img">
         <div class="usecase-body">
-          <span class="usecase-tag">Hospitality</span>
-          <h3>Hotels &amp; Guest Services</h3>
-          <p>From check-in to concierge requests, Cosmo bridges the gap between staff and guests speaking different languages, making every stay feel seamless and personal.</p>
+          <span class="usecase-tag">酒店</span>
+          <h3>酒店与宾客服务</h3>
+          <p>从入住到礼宾服务，Cosmo 在说不同语言的员工和宾客之间架起沟通桥梁，让每次住宿都顺畅而贴心。</p>
         </div>
       </div>
 
       <div class="usecase-card">
         <img src="../assets/cosmoad_business.png" alt="Business meetings and negotiations" class="usecase-img">
         <div class="usecase-body">
-          <span class="usecase-tag">Business</span>
-          <h3>Business Meetings &amp; Negotiations</h3>
-          <p>Walk into any room ready. Cosmo translates live in both directions so you can negotiate, collaborate, and build relationships with partners around the world, in real time.</p>
+          <span class="usecase-tag">商务</span>
+          <h3>商务会议与谈判</h3>
+          <p>进入任何会议室都游刃有余。Cosmo 双向实时翻译，让您与全球合作伙伴谈判、协作、建立关系，实时沟通。</p>
         </div>
       </div>
 
@@ -730,9 +812,9 @@
 <!-- LANGUAGES -->
 <section class="languages-section">
   <div class="languages-inner fu">
-    <div class="eyebrow">Languages</div>
-    <h2 class="section-title">Speak to anyone, anywhere</h2>
-    <p class="section-sub">Cosmo supports 70+ languages — from widely spoken to regional. A sample of what's available:</p>
+    <div class="eyebrow">支持语言</div>
+    <h2 class="section-title">与任何人随时随地交流</h2>
+    <p class="section-sub">Cosmo 支持 70 多种语言，从广泛使用的到地区性语言。以下是部分可用语言：</p>
     <div class="lang-pills">
       <span class="lang-pill"><span class="flag">🇺🇸</span>English</span>
       <span class="lang-pill"><span class="flag">🇪🇸</span>Spanish</span>
@@ -785,7 +867,7 @@
       <span class="lang-pill"><span class="flag">🇨🇦</span>French Canadian</span>
       <span class="lang-pill"><span class="flag">🇨🇳</span>Cantonese</span>
     </div>
-    <p class="lang-more">…and many more. Full list available in the app.</p>
+    <p class="lang-more">…以及更多。完整列表请在应用内查看。</p>
   </div>
 </section>
 
@@ -824,7 +906,7 @@
             <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
           </svg>
         </div>
-        <h3>50+ 种语言</h3>
+        <h3>支持 70+ 种语言</h3>
         <p>从西班牙语、普通话到日语、阿拉伯语、韩语及更多语言，Cosmo 涵盖您旅行中实际遇到的各种语言。</p>
       </div>
       <div class="feat-card fu" style="transition-delay:0.0s">
@@ -1166,10 +1248,10 @@
       </div>
       <div class="faq-item">
         <button class="faq-q" onclick="toggleFaq(this)">
-          Why do I need credits to translate?
+          为什么我需要积分才能翻译？
           <svg class="faq-chevron" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg>
         </button>
-        <div class="faq-a">Cosmo uses advanced AI models to deliver fast, accurate, and natural-sounding translations in real time. Unlike basic translation apps, every conversation is processed through these models which require computing power to run, and that has a cost. Credits are how we keep the service running while making sure you only pay for what you actually use. You can start for free with 20 guest credits, no account needed.</div>
+        <div class="faq-a">Cosmo 使用先进的 AI 模型提供快速、准确、自然的实时翻译。与基础翻译应用不同，每次对话都通过这些需要算力的模型处理，这是有成本的。积分是我们维持服务运营的方式，同时确保您只为实际使用的内容付费。您可以免费开始，无需账户，享有 20 个访客积分。</div>
       </div>
     </div>
   </div>
@@ -1279,12 +1361,7 @@
     document.getElementById('androidSuccess').classList.add('show');
   }
 
-  // Save manual language choice
-  document.querySelectorAll('.lang-switcher a').forEach(function(a) {
-    a.addEventListener('click', function() {
-      localStorage.setItem('cosmo-lang', this.getAttribute('href'));
-    });
-  });
+  // Language choice is saved inline on the select onchange
 
   // FAQ accordion
   function toggleFaq(btn) {

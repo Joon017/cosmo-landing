@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "faq": "FAQ",
+    "download": "Download Free"
+  },
+  "hero": {
+    "title": "Talk to anyone without the language barriers.",
+    "sub": "Built for real conversations, Cosmo translates live two-way conversations accurately and reliably for over 70+ languages in real time, so you and the person across from you always understand each other. We believe in helping you unlock unlimited opportunities by breaking the language barrier.",
+    "store_label": "Try for free on iOS and Android"
+  },
+  "stats": {
+    "languages": "70+ Languages Supported",
+    "modes": "Hands-Free & Press & Hold",
+    "platforms": "iOS & Android",
+    "no_account": "No account to start",
+    "free_credits": "20 free credits to begin"
+  },
+  "usecases": {
+    "eyebrow": "Use Cases",
+    "title": "Built for every conversation",
+    "sub": "Whether you're crossing borders or closing deals, Cosmo keeps you understood.",
+    "cards": [
+      {
+        "tag": "Travel",
+        "title": "Travel & Daily Conversations",
+        "body": "Navigate new places with confidence. Ask for directions, order food, and connect with locals. No phrasebook needed. Cosmo handles the conversation so you can focus on the experience.",
+        "image": "assets/cosmoad_conversation.png"
+      },
+      {
+        "tag": "Hospitality",
+        "title": "Hotels & Guest Services",
+        "body": "From check-in to concierge requests, Cosmo bridges the gap between staff and guests speaking different languages, making every stay feel seamless and personal.",
+        "image": "assets/cosmoad_hotel.png"
+      },
+      {
+        "tag": "Business",
+        "title": "Business Meetings & Negotiations",
+        "body": "Walk into any room ready. Cosmo translates live in both directions so you can negotiate, collaborate, and build relationships with partners around the world, in real time.",
+        "image": "assets/cosmoad_business.png"
+      }
+    ]
+  },
+  "languages": {
+    "eyebrow": "Languages",
+    "title": "Speak to anyone, anywhere",
+    "sub": "Cosmo supports 70+ languages — from widely spoken to regional. A sample of what's available:",
+    "more": "…and many more. Full list available in the app."
+  },
+  "features": {
+    "eyebrow": "Features"
+  },
+  "screenshots": {
+    "eyebrow": "See it in action",
+    "title": "Your voice. Their language. Instantly.",
+    "sub": "Cosmo listens, translates, and speaks - so both sides of the conversation understand each other in real time.",
+    "captions": [
+      "Choose your language pair & mode",
+      "Configure noise level & voice",
+      "Live bilingual conversation log",
+      "Actively listening & translating"
+    ]
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Pay for what you need"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "items": [
+      {
+        "q": "Is Cosmo Translator free?",
+        "a": "Yes. Cosmo is free to download and comes with 20 guest credits on first launch, no account or credit card required. You can translate your first conversations right away. If you need more, you can top up with a one-time credit pack or choose a weekly or monthly subscription."
+      },
+      {
+        "q": "Does Cosmo Translator work offline?",
+        "a": "No. Cosmo requires an internet connection to translate. It uses cloud-based AI models to deliver accurate, real-time translations. A Wi-Fi or mobile data connection is needed during each conversation session."
+      },
+      {
+        "q": "How do credits work in Cosmo Translator?",
+        "a": "Credits are consumed when you translate. Cosmo has three separate buckets: guest trial credits (free, one-time), subscription credits (refresh on renewal), and pack credits (one-time purchase). Subscription credits are used first, then pack credits."
+      },
+      {
+        "q": "What is the difference between Hands-Free and Press and Hold mode?",
+        "a": "Hands-Free mode automatically detects when someone is speaking and translates without any button press, great for natural flowing conversations. Press and Hold requires holding a button to record, giving you precise control over when translation happens."
+      },
+      {
+        "q": "Can I use Cosmo Translator without creating an account?",
+        "a": "Yes. You get 20 free guest credits when you first open the app, with no account and no credit card required. You will need a Cosmo account to purchase credit packs or start a subscription."
+      },
+      {
+        "q": "Do Cosmo credits expire?",
+        "a": "Subscription credits refresh when your plan renews and unused subscription credits do not carry over. Pack credits are yours until used and never expire. Guest trial credits are one-time only and cannot be replenished."
+      },
+      {
+        "q": "Which languages does Cosmo Translator support?",
+        "a": "Cosmo supports 70+ languages including Spanish, Mandarin Chinese, Japanese, French, German, Arabic, Korean, Portuguese, Hindi, Italian, Dutch, Turkish, and many more."
+      },
+      {
+        "q": "Can I stack credit packs with a subscription?",
+        "a": "Yes. Credit packs are completely separate from subscriptions and can be added to any plan. Subscription credits are consumed first; pack credits are your reserve."
+      },
+      {
+        "q": "Why do I need credits to translate?",
+        "a": "Cosmo uses advanced AI models to deliver fast, accurate, and natural-sounding translations in real time. Unlike basic translation apps, every conversation is processed through these models which require computing power to run, and that has a cost. Credits are how we keep the service running while making sure you only pay for what you actually use. You can start for free with 20 guest credits, no account needed."
+      }
+    ]
+  },
+  "footer": {
+    "copy": "© 2025 Cosmo Translator. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}

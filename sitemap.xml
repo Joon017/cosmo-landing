@@ -1,17 +1,223 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
   <url>
     <loc>https://getcosmoapp.com/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://getcosmoapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://getcosmoapp.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://getcosmoapp.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://getcosmoapp.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://getcosmoapp.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://getcosmoapp.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getcosmoapp.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://getcosmoapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://getcosmoapp.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://getcosmoapp.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="tr"    href="https://getcosmoapp.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://getcosmoapp.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getcosmoapp.com/"/>
   </url>
+
   <url>
     <loc>https://getcosmoapp.com/es/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://getcosmoapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://getcosmoapp.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://getcosmoapp.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://getcosmoapp.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://getcosmoapp.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://getcosmoapp.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getcosmoapp.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://getcosmoapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://getcosmoapp.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://getcosmoapp.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="tr"    href="https://getcosmoapp.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://getcosmoapp.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getcosmoapp.com/"/>
   </url>
+
   <url>
     <loc>https://getcosmoapp.com/fr/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://getcosmoapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://getcosmoapp.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://getcosmoapp.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://getcosmoapp.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://getcosmoapp.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://getcosmoapp.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getcosmoapp.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://getcosmoapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://getcosmoapp.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://getcosmoapp.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="tr"    href="https://getcosmoapp.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://getcosmoapp.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getcosmoapp.com/"/>
   </url>
+
   <url>
     <loc>https://getcosmoapp.com/zh/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://getcosmoapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://getcosmoapp.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://getcosmoapp.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://getcosmoapp.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://getcosmoapp.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://getcosmoapp.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getcosmoapp.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://getcosmoapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://getcosmoapp.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://getcosmoapp.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="tr"    href="https://getcosmoapp.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://getcosmoapp.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getcosmoapp.com/"/>
   </url>
+
+  <url>
+    <loc>https://getcosmoapp.com/ja/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://getcosmoapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://getcosmoapp.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://getcosmoapp.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://getcosmoapp.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://getcosmoapp.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://getcosmoapp.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getcosmoapp.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://getcosmoapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://getcosmoapp.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://getcosmoapp.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="tr"    href="https://getcosmoapp.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://getcosmoapp.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getcosmoapp.com/"/>
+  </url>
+
+  <url>
+    <loc>https://getcosmoapp.com/ko/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://getcosmoapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://getcosmoapp.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://getcosmoapp.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://getcosmoapp.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://getcosmoapp.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://getcosmoapp.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getcosmoapp.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://getcosmoapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://getcosmoapp.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://getcosmoapp.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="tr"    href="https://getcosmoapp.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://getcosmoapp.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getcosmoapp.com/"/>
+  </url>
+
+  <url>
+    <loc>https://getcosmoapp.com/pt/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://getcosmoapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://getcosmoapp.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://getcosmoapp.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://getcosmoapp.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://getcosmoapp.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://getcosmoapp.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getcosmoapp.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://getcosmoapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://getcosmoapp.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://getcosmoapp.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="tr"    href="https://getcosmoapp.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://getcosmoapp.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getcosmoapp.com/"/>
+  </url>
+
+  <url>
+    <loc>https://getcosmoapp.com/de/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://getcosmoapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://getcosmoapp.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://getcosmoapp.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://getcosmoapp.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://getcosmoapp.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://getcosmoapp.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getcosmoapp.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://getcosmoapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://getcosmoapp.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://getcosmoapp.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="tr"    href="https://getcosmoapp.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://getcosmoapp.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getcosmoapp.com/"/>
+  </url>
+
+  <url>
+    <loc>https://getcosmoapp.com/ar/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://getcosmoapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://getcosmoapp.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://getcosmoapp.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://getcosmoapp.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://getcosmoapp.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://getcosmoapp.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getcosmoapp.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://getcosmoapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://getcosmoapp.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://getcosmoapp.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="tr"    href="https://getcosmoapp.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://getcosmoapp.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getcosmoapp.com/"/>
+  </url>
+
+  <url>
+    <loc>https://getcosmoapp.com/hi/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://getcosmoapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://getcosmoapp.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://getcosmoapp.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://getcosmoapp.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://getcosmoapp.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://getcosmoapp.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getcosmoapp.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://getcosmoapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://getcosmoapp.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://getcosmoapp.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="tr"    href="https://getcosmoapp.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://getcosmoapp.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getcosmoapp.com/"/>
+  </url>
+
+  <url>
+    <loc>https://getcosmoapp.com/tr/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://getcosmoapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://getcosmoapp.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://getcosmoapp.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://getcosmoapp.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://getcosmoapp.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://getcosmoapp.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getcosmoapp.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://getcosmoapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://getcosmoapp.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://getcosmoapp.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="tr"    href="https://getcosmoapp.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://getcosmoapp.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getcosmoapp.com/"/>
+  </url>
+
+  <url>
+    <loc>https://getcosmoapp.com/ru/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en"    href="https://getcosmoapp.com/"/>
+    <xhtml:link rel="alternate" hreflang="es"    href="https://getcosmoapp.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr"    href="https://getcosmoapp.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="zh"    href="https://getcosmoapp.com/zh/"/>
+    <xhtml:link rel="alternate" hreflang="ja"    href="https://getcosmoapp.com/ja/"/>
+    <xhtml:link rel="alternate" hreflang="ko"    href="https://getcosmoapp.com/ko/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://getcosmoapp.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de"    href="https://getcosmoapp.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="ar"    href="https://getcosmoapp.com/ar/"/>
+    <xhtml:link rel="alternate" hreflang="hi"    href="https://getcosmoapp.com/hi/"/>
+    <xhtml:link rel="alternate" hreflang="tr"    href="https://getcosmoapp.com/tr/"/>
+    <xhtml:link rel="alternate" hreflang="ru"    href="https://getcosmoapp.com/ru/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://getcosmoapp.com/"/>
+  </url>
+
   <url>
     <loc>https://getcosmoapp.com/privacy.html</loc>
   </url>
@@ -21,4 +227,5 @@
   <url>
     <loc>https://getcosmoapp.com/terms.html</loc>
   </url>
+
 </urlset>
