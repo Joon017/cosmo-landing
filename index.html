@@ -1401,7 +1401,7 @@
     const btn = document.getElementById('androidSubmitBtn');
     btn.disabled = true;
     btn.textContent = btn.dataset.submitting;
-    const endpoint = 'https://script.google.com/macros/s/AKfycbyrtPczvfFsYmCiH65g4KZK248LATBGmGQ7FE66u_toHWAXZ0ZibVJwLM3GVOw8xLgt_w/exec';
+    const endpoint = 'https://script.google.com/macros/s/AKfycbwp_kQkAq_xWfVhdHjXAX2XjBXWMIwH0ALz_Bu0Iks3Z5dAK8MZSWSWwc8ks4-YxfYR/exec';
     const body = JSON.stringify({ type: 'android_waitlist', email, page: window.location.href });
     try {
       navigator.sendBeacon(endpoint, new Blob([body], { type: 'text/plain;charset=utf-8' }));
@@ -1415,7 +1415,7 @@
     if (sessionStorage.getItem('cosmo-visited')) return;
     sessionStorage.setItem('cosmo-visited', '1');
 
-    const endpoint = 'https://script.google.com/macros/s/AKfycbyrtPczvfFsYmCiH65g4KZK248LATBGmGQ7FE66u_toHWAXZ0ZibVJwLM3GVOw8xLgt_w/exec';
+    const endpoint = 'https://script.google.com/macros/s/AKfycbwp_kQkAq_xWfVhdHjXAX2XjBXWMIwH0ALz_Bu0Iks3Z5dAK8MZSWSWwc8ks4-YxfYR/exec';
     const payload = {
       type: 'visit',
       page: window.location.href,
